@@ -95,7 +95,7 @@ export default function FloatingNav() {
       {/* Desktop floating nav */}
       {!isMobile && (
         <motion.div
-          className={`fixed left-1/2 transform -translate-x-1/2 z-50 rounded-full px-2 py-1 transition-all duration-300 ${
+          className={`fixed  z-50 rounded-full px-2 py-1 transition-all duration-300 ${
             isScrolled ? "top-4 bg-background/50 backdrop-blur-sm shadow-lg border border-border" : "top-8"
           }`}
           initial={{ y: -100 }}
