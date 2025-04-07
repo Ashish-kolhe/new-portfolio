@@ -76,12 +76,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-center">
-                  <div className="w-12 h-12 rounded-full gradient-bg flex items-center justify-center mr-4 flex-shrink-0">
-                    <MapPin className="h-5 w-5 text-white" />
-                  </div>
-                 
-                </div>
+            
 
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full gradient-bg flex items-center justify-center mr-4 flex-shrink-0">
