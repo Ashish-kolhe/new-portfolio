@@ -12,7 +12,7 @@ const projects = [
     title: "Coddeit",
     description:
       "Coddeit is a practical coding platform focused on building real-world projects. It’s designed to teach by doing, helping students and entrepreneurs turn their ideas into deployable solutions quickly.",
-    image: "./CT.jpg",
+    image: "./coddeit.jpg",
     tags: ["Coding", "Education", "Projects"],
     link: "https://www.coddeit.site",
     code: "https://github.com/Ashish-kolhe/Website",
@@ -21,7 +21,7 @@ const projects = [
     title: "Krypton",
     description:
       "Krypton is a digital solutions agency specializing in web and mobile development. We offer services like Web Development, App Development, Digital Marketing, and UI/UX Design, empowering businesses with innovative solutions to drive growth.",
-    image: "./KN.jpg",
+    image: "./krypton.jpg",
     tags: ["Agency", "Web Development", "Mobile Development"],
     link: "https://kryptonsite.netlify.app",
     code: "https://github.com/Ashish-kolhe/Krypton",
@@ -30,7 +30,7 @@ const projects = [
     title: "GameStore",
     description:
       "Game Store is a design exercise created to practice design principles. The project showcases a user-friendly interface featuring popular mobile games, emphasizing clean layout and intuitive navigation.",
-    image: "./GS.jpg",
+    image: "./game.jpg",
     tags: ["Design", "UI/UX", "Games"],
     link: "https://gamestoreforfun.netlify.app",
     code: "https://github.com/Ashish-kolhe/Gamestore",
@@ -39,7 +39,7 @@ const projects = [
     title: "InLance",
     description:
       "InLance is a platform created for the Smart India Hackathon 2024 to connect freelancers with clients. It was developed as a prototype to demonstrate key features like a user-friendly interface, secure payments, and diverse project categories.",
-    image: "IL.jpg",
+    image: "inlance.jpg",
     tags: ["Freelancing", "Marketplace", "Hackathon"],
     link: "https://ashishkolhe.netlify.app",
     code: "https://github.com/Ashish-kolhe/InLance",
@@ -48,7 +48,7 @@ const projects = [
     title: "SelfStudy",
     description:
       "SelfStudy is a modern e-learning platform built for the Internal College Hackathon 2025. This frontend-only project focuses on a clean UI/UX and interactive course browsing, designed to provide a seamless self-paced learning experience.",
-    image: "./SS.jpg",
+    image: "./selfstudy.jpg",
     tags: ["E-learning", "Education", "Hackathon"],
     link: "https://selfstudyich.vercel.app",
     code: "https://github.com/Ashish-kolhe/selfstudy",
