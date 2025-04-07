@@ -6,34 +6,28 @@ import { Briefcase, GraduationCap, Lightbulb, Award } from "lucide-react"
 
 const journeyItems = [
   {
-    year: "2018",
-    title: "University Graduation",
-    description: "Graduated with honors in Computer Science, focusing on interactive media and design.",
-    icon: GraduationCap,
-    color: "from-blue-500 to-cyan-400",
-  },
-  {
-    year: "2019",
-    title: "First Developer Role",
-    description: "Joined a creative agency as a junior developer, working on interactive web experiences.",
-    icon: Briefcase,
-    color: "from-primary to-purple-400",
-  },
-  {
-    year: "2021",
-    title: "Freelance Journey",
-    description: "Started freelancing, collaborating with startups and artists on innovative digital projects.",
+    year: "2023",
+    title: "Started Learning Web Development",
+    description: "Began exploring HTML, CSS, and JavaScript, laying the foundation for web development skills.",
     icon: Lightbulb,
     color: "from-purple-500 to-pink-400",
   },
   {
-    year: "2023",
-    title: "Award Recognition",
-    description: "Received industry recognition for pioneering work in interactive storytelling platforms.",
-    icon: Award,
-    color: "from-amber-500 to-orange-400",
+    year: "2024",
+    title: "Exercise Projects & Practice",
+    description: "Worked on several frontend projects to strengthen understanding of modern web technologies and UI/UX.",
+    icon: Briefcase,
+    color: "from-primary to-purple-400",
+  },
+  {
+    year: "2027",
+    title: "Graduation Year",
+    description: "Set to graduate with a degree in Engineering, ready to pursue professional opportunities in tech.",
+    icon: GraduationCap,
+    color: "from-blue-500 to-cyan-400",
   },
 ]
+
 
 export default function Journey() {
   const containerRef = useRef<HTMLDivElement>(null)

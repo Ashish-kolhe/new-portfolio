@@ -72,7 +72,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="text-foreground break-words">hello@example.com</p>
+                    <p className="text-foreground break-words">ashishkolhe2005@gmail.com</p>
                   </div>
                 </div>
 
@@ -80,10 +80,7 @@ export default function Contact() {
                   <div className="w-12 h-12 rounded-full gradient-bg flex items-center justify-center mr-4 flex-shrink-0">
                     <MapPin className="h-5 w-5 text-white" />
                   </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="text-foreground">San Francisco, CA</p>
-                  </div>
+                 
                 </div>
 
                 <div className="flex items-center">
@@ -92,7 +89,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="text-foreground">+1 (555) 123-4567</p>
+                    <p className="text-foreground">+91 9226132772</p>
                   </div>
                 </div>
 
@@ -101,7 +98,7 @@ export default function Contact() {
 
                   <div className="flex space-x-4">
                     <motion.a
-                      href="#"
+                      href="https://github.com/Ashish-kolhe"
                       className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-card flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300 border border-border"
                       aria-label="GitHub"
                       whileHover={{ scale: 1.1 }}
@@ -110,7 +107,7 @@ export default function Contact() {
                       <Github className="h-5 w-5" />
                     </motion.a>
                     <motion.a
-                      href="#"
+                      href="https://www.linkedin.com/in/ashish-kolhe-b4800b343"
                       className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-card flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300 border border-border"
                       aria-label="LinkedIn"
                       whileHover={{ scale: 1.1 }}
@@ -119,7 +116,7 @@ export default function Contact() {
                       <Linkedin className="h-5 w-5" />
                     </motion.a>
                     <motion.a
-                      href="#"
+                      href="https://x.com/AshishKolhe_"
                       className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-card flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300 border border-border"
                       aria-label="Twitter"
                       whileHover={{ scale: 1.1 }}

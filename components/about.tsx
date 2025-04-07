@@ -33,7 +33,7 @@ export default function About() {
             <div className="aspect-square rounded-full overflow-hidden border-4 border-primary p-2 mx-auto max-w-[280px]">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=400"
+                  src="./Avatar.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -42,7 +42,7 @@ export default function About() {
             </div>
 
             <div className="absolute -bottom-6 -right-6 w-24 h-24 md:w-32 md:h-32 rounded-full gradient-bg flex items-center justify-center text-white font-bold text-lg md:text-xl">
-              10+ Years
+              2+ Years
             </div>
           </div>
 
@@ -53,11 +53,6 @@ export default function About() {
               <p>
                 I'm a creative developer with a passion for building immersive digital experiences that blend artistry
                 with technical innovation. My journey began with a fascination for both design and code.
-              </p>
-
-              <p>
-                Over the years, I've collaborated with startups, agencies, and established brands to create memorable
-                digital products that not only look beautiful but solve real problems.
               </p>
 
               <p>

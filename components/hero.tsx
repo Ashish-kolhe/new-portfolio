@@ -213,7 +213,7 @@ export default function Hero() {
 
       <motion.div className="relative z-10 text-center px-4 max-w-4xl mx-auto" style={{ opacity, y, scale }}>
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <h1 className="text-5xl md:text-7xl font-bold gradient-text mb-4">Hello, I'm Alex</h1>
+          <h1 className="text-5xl md:text-7xl font-bold gradient-text mb-4">Hello, I'm Ashish</h1>
         </motion.div>
 
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4, duration: 0.8 }}>

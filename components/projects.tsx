@@ -9,42 +9,52 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const projects = [
   {
-    title: "Immersive Portfolio",
+    title: "Coddeit",
     description:
-      "An interactive 3D portfolio experience built with Three.js and React, featuring custom animations and user interactions.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["Three.js", "React", "WebGL", "GSAP"],
-    link: "#",
-    code: "#",
+      "Coddeit is a practical coding platform focused on building real-world projects. It’s designed to teach by doing, helping students and entrepreneurs turn their ideas into deployable solutions quickly.",
+    image: "./CT.jpg",
+    tags: ["Coding", "Education", "Projects"],
+    link: "https://www.coddeit.site",
+    code: "https://github.com/Ashish-kolhe/Website",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Krypton",
     description:
-      "A modern e-commerce platform with real-time inventory, payment processing, and a custom CMS for content management.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["Next.js", "Stripe", "Tailwind CSS", "Prisma"],
-    link: "#",
-    code: "#",
+      "Krypton is a digital solutions agency specializing in web and mobile development. We offer services like Web Development, App Development, Digital Marketing, and UI/UX Design, empowering businesses with innovative solutions to drive growth.",
+    image: "./KN.jpg",
+    tags: ["Agency", "Web Development", "Mobile Development"],
+    link: "https://kryptonsite.netlify.app",
+    code: "https://github.com/Ashish-kolhe/Krypton",
   },
   {
-    title: "AI Content Generator",
+    title: "GameStore",
     description:
-      "A tool that leverages AI to generate custom content for marketing teams, with analytics and performance tracking.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["AI", "TypeScript", "Node.js", "MongoDB"],
-    link: "#",
-    code: "#",
+      "Game Store is a design exercise created to practice design principles. The project showcases a user-friendly interface featuring popular mobile games, emphasizing clean layout and intuitive navigation.",
+    image: "./GS.jpg",
+    tags: ["Design", "UI/UX", "Games"],
+    link: "https://gamestoreforfun.netlify.app",
+    code: "https://github.com/Ashish-kolhe/Gamestore",
   },
   {
-    title: "Interactive Data Visualization",
+    title: "InLance",
     description:
-      "A dashboard that transforms complex datasets into interactive, real-time visualizations for financial analysis.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["D3.js", "React", "GraphQL", "Firebase"],
-    link: "#",
-    code: "#",
+      "InLance is a platform created for the Smart India Hackathon 2024 to connect freelancers with clients. It was developed as a prototype to demonstrate key features like a user-friendly interface, secure payments, and diverse project categories.",
+    image: "IL.jpg",
+    tags: ["Freelancing", "Marketplace", "Hackathon"],
+    link: "https://ashishkolhe.netlify.app",
+    code: "https://github.com/Ashish-kolhe/InLance",
+  },
+  {
+    title: "SelfStudy",
+    description:
+      "SelfStudy is a modern e-learning platform built for the Internal College Hackathon 2025. This frontend-only project focuses on a clean UI/UX and interactive course browsing, designed to provide a seamless self-paced learning experience.",
+    image: "./SS.jpg",
+    tags: ["E-learning", "Education", "Hackathon"],
+    link: "https://selfstudyich.vercel.app",
+    code: "https://github.com/Ashish-kolhe/selfstudy",
   },
 ]
+
 
 export default function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0)
